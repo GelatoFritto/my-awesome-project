@@ -1,0 +1,79 @@
+body {
+  font-family: "Zen Kurenaido", sans-serif;
+}
+table {
+  vertical-align: middle;
+}
+
+i {
+  color: #2c786c;
+}
+
+.weather-box {
+  max-width: 800px;
+  background: #faf5e4;
+  margin: 40px auto;
+  padding: 50px;
+  border-radius: 20px;
+  display: block;
+}
+
+.title {
+  font-size: 48px;
+}
+.vertical {
+  border-left: 1px solid grey;
+  height: 100px;
+  position: relative;
+  left: 50%;
+  padding: 0;
+}
+.current-city {
+  font-size: 40px;
+}
+.current-day {
+  font-size: 24px;
+}
+
+.current-temperature {
+  font-size: 60px;
+  text-align: left;
+}
+.current-weather {
+  font-size: 20px;
+  text-align: left;
+}
+
+.form-control-lg {
+  border: none;
+  width: 100%;
+}
+
+.btn-primary {
+  background: #f8b400;
+  border: solid 1px #f8b400;
+  transition: all 250ms ease-in-out;
+}
+
+.btn-primary:hover {
+  background: white;
+  border: solid 1px #f8b400;
+  color: #f8b400;
+}
+
+.card {
+  border: none;
+  padding: 10px;
+  background: #faf5e4;
+}
+.card:hover {
+  background: white;
+}
+
+.main-icon {
+  font-size: 80px;
+}
+
+.secondary-icon {
+  font-size: 48px;
+}
